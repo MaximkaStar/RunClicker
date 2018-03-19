@@ -25,24 +25,23 @@ namespace RunClickRun
             InitializeComponent();
         }
 
-        private new void MouseMove(object sender, MouseEventArgs e)
+        private void MouseMove(object sender, MouseEventArgs e)
         {
-            if (Run.HorizontalAlignment != HorizontalAlignment.Left)
+            if (RunButton.VerticalAlignment != VerticalAlignment.Bottom)
             {
-                Run.HorizontalAlignment = HorizontalAlignment.Left;
+                RunButton.VerticalAlignment = VerticalAlignment.Bottom;
             }
             else
             {
-                Run.HorizontalAlignment = HorizontalAlignment.Right;
+                RunButton.VerticalAlignment = VerticalAlignment.Top;
             }
-
-            if (Run.VerticalAlignment != VerticalAlignment.Bottom)
+            if (RunButton.HorizontalAlignment != HorizontalAlignment.Left)
             {
-                Run.VerticalAlingment = VerticalAlignment.Bottom;
+                RunButton.HorizontalAlignment = HorizontalAlignment.Left;
             }
             else
             {
-                Run.VerticalAlignment = VerticalAlignment.Top;
+                RunButton.HorizontalAlignment = HorizontalAlignment.Right;
             }
         }
     }
