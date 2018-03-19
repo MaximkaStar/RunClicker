@@ -1,0 +1,5 @@
+c:\users\стасися\source\repos\RunClickRun\RunClickRun\obj\Debug\RunClickRun.csprojResolveAssemblyReference.cache
+c:\users\стасися\source\repos\RunClickRun\RunClickRun\obj\Debug\MainWindow.g.cs
+c:\users\стасися\source\repos\RunClickRun\RunClickRun\obj\Debug\App.g.cs
+c:\users\стасися\source\repos\RunClickRun\RunClickRun\obj\Debug\RunClickRun_MarkupCompile.cache
+c:\users\стасися\source\repos\RunClickRun\RunClickRun\obj\Debug\RunClickRun_MarkupCompile.lref
