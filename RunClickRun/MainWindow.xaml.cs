@@ -25,11 +25,12 @@ namespace RunClickRun
             InitializeComponent();
         }
 
-        private void MouseMove(object sender, MouseEventArgs e)
+        public  void MouseMove(object sender, MouseEventArgs e)
         {
-            if (RunButton.VerticalAlignment != VerticalAlignment.Bottom)
+            
+            if (RunButton.VerticalAlignment != VerticalAlignment.Top)
             {
-                RunButton.VerticalAlignment = VerticalAlignment.Bottom;
+                RunButton.VerticalAlignment = VerticalAlignment.Stretch;
             }
             else
             {

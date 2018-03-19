@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RunClickRun"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="720" Width="1020">
     <Grid>
-        <Button x:Name="RunButton"  Content="ClickMe" HorizontalAlignment="Center" VerticalAlignment="Center" MouseMove="MouseMove" Height="99" Margin="296,159,307,161" Width="189" Background="Red"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="371*"/>
+            <ColumnDefinition Width="421*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="RunButton"  Content="ClickMe"  MouseMove="MouseMove" Height="43" Margin="278,160,0,216" Width="93" Background="Red"/>
     </Grid>
 </Window>
